@@ -1,8 +1,8 @@
-# Small-Quiz-Game
+# Small-Quiz-Game and Town Administration Challenge
 Small-Quiz-Game
 
-This small quiz game can be played on console of a browser. 
-The purpose of creation of this game is just to try ES5 features such as Closures, Protorype, IIFE, Constructor, Recursion and Callbacks.
+This small quiz game can be played on console of a browser as well as the Town Administration Challenge. 
+The purpose of creation of this game and challenge is just to try ES5 and ES6 features such as Closures, Protorype, IIFE, Constructor, Recursion and Callbacks, Classes, Arrow functions and Default parameters.
 
 How the game was built:
 
@@ -28,4 +28,23 @@ Inital commit is built to serve the following 7 points:
 
 And Second commit is built to serve the rest of the points:
 
-8. After displaying the result, display the next random question, so that the game never ends (Hint: write a function for this and call it right after displaying the result) 
+8. After displaying the result, display the next random question, so that the game never ends (Writing a function for this and call it right after displaying the result) 
+
+#Town Administration Challenge
+
+Suppose that I'm working in a small town administration, and I'm in charge of two town elements:
+1. Parks
+2. Streets
+
+It's a very small town, so right now there are only 3 parks and 3 streets. All parks and streets have a name and a build year.
+
+At an end-of-year meeting, my boss wants a final report with the following:
+1. Tree density of each park in the town (forumla: number of trees/park area)
+2. Average age of each town's park (forumla: sum of all ages/number of parks)
+3. The name of the park that has more than 1000 trees
+4. Total and average length of the town's streets
+5. Size classification of all streets: tiny/small/normal/big/huge. If the size is unknown, the default is normal
+
+All the report data should be printed to the console.
+
+Using some of the ES6 features: classes, subclasses, template strings, default parameters, maps, arrow functions, destructuring, etc.
